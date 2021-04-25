@@ -1,0 +1,126 @@
+.card {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  float: left;
+  line-height: 0;
+  border: white;
+  color: rgb(77, 77, 77);
+}
+
+.card-deal {
+  width: 230px;
+  height: 400px;
+}
+
+.card-brand {
+  /* border-radius: 5px solid rgb(214, 212, 212); */
+  width: 230px;
+  height: 400px;
+  background-color: rgb(243, 243, 243);
+  border: none;
+  box-shadow: 2px 2px 4px #ececec;
+  height: 600px;
+}
+
+/* Cards{
+    float: left;
+} */
+
+.card-container {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  padding-left: 3%;
+  padding-right: 3%;
+  cursor: pointer;
+  border: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.brand-img {
+  height: 250px;
+  width: 200px;
+  margin: 14px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #f1f1f1;
+}
+
+.bag-card-container {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 300px;
+  background-color: #f1f1f1;
+  border-radius: none;
+  box-shadow: 2px 2px 4px #cecece;
+  cursor: pointer;
+  border: white;
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bag-card-container:hover {
+  width: 520px;
+}
+
+.bag-img {
+  /* width: 170px;
+    height: 170px; */
+  /* border-radius: 50%; */
+  margin: auto;
+}
+
+.explore-card-container {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: none;
+  box-shadow: 2px 2px 4px #eeeeee;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  border: white;
+  display: flex;
+
+  /* flex-direction: row; */
+}
+
+.explore-img {
+  width: 180px;
+  height: 230px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 13px;
+}
+
+.product-img {
+  height: 230px;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.d-block {
+  height: 400px;
+}
+
+.explore-card {
+  display: inline-block;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-gap: 10px;
+  text-align: center;
+}
